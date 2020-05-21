@@ -1,1 +1,1 @@
-Altium Designer project files for AlbertaSat's open-source Starboard Deployable Solar Panel.
+Altium Designer project files for AlbertaSat's open-source Starboard Solar Panel.
