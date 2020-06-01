@@ -21,7 +21,7 @@ TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Canon MG3200 series Printer
+TargetPrinter=Brother HL-L2320D series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -63,7 +63,7 @@ OutputEnabled2_OutputMedium5=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.85|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=128937009|ViewY=34153543|LookAtX=64468504|LookAtY=17076772|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.00281525841816E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ViewConfig=
+Configuration2_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=128937009|ViewY=34153543|LookAtX=64468504|LookAtY=17076772|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.00281525841816E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ViewConfig=
 OutputType3=Schematic Print
 OutputName3=Schematic Prints
 OutputCategory3=Documentation
@@ -93,7 +93,7 @@ OutputEnabled4_OutputMedium5=0
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.85|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration4_Name1=OutputConfigurationParameter1
-Configuration4_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=128937009|ViewY=34153543|LookAtX=64468504|LookAtY=17076772|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.00281525841816E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ScreenWidth=0|ScreenHeight=0|ViewConfig=
+Configuration4_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=128937009|ViewY=34153543|LookAtX=64468504|LookAtY=17076772|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.00281525841816E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ScreenWidth=0|ScreenHeight=0|ViewConfig=
 OutputType5=Assembly
 OutputName5=Assembly Drawings
 OutputCategory5=Assembly
@@ -101,7 +101,7 @@ OutputDocumentPath5=Starboard Solar Panel.PcbDoc
 OutputVariantName5=
 OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
-OutputEnabled5_OutputMedium2=5
+OutputEnabled5_OutputMedium2=6
 OutputEnabled5_OutputMedium3=0
 OutputEnabled5_OutputMedium4=0
 OutputEnabled5_OutputMedium5=0
@@ -197,7 +197,7 @@ OutputDocumentPath8=
 OutputVariantName8=
 OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
-OutputEnabled8_OutputMedium2=0
+OutputEnabled8_OutputMedium2=5
 OutputEnabled8_OutputMedium3=0
 OutputEnabled8_OutputMedium4=0
 OutputEnabled8_OutputMedium5=0
@@ -210,9 +210,11 @@ Configuration8_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsIn
 Configuration8_Name3=GroupOrder
 Configuration8_Item3=Comment=True|Footprint=True
 Configuration8_Name4=SortOrder
-Configuration8_Item4=Designator=Up|Comment=Up|Footprint=Up
+Configuration8_Item4=Designator=Up
 Configuration8_Name5=VisibleOrder
-Configuration8_Item5=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
+Configuration8_Item5=Description=320|Designator=206|LibRef=160|Quantity=53|Footprint=100|Supplier 1=100|Supplier Link=414
+Configuration8_Name6=VisibleOrder_Flat
+Configuration8_Item6=Description=320|Designator=206|LibRef=160|Quantity=53|Footprint=100|Supplier 1=100|Supplier Link=414
 OutputType9=ExportPARASOLID
 OutputName9=Export PARASOLID
 OutputCategory9=Export
