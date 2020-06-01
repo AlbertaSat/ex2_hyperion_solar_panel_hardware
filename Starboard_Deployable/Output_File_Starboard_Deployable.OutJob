@@ -21,7 +21,7 @@ TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Canon MG3200 series Printer
+TargetPrinter=Brother HL-L2320D series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -49,7 +49,7 @@ OutputEnabled1_OutputMedium5=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.85|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=128937008|ViewY=32677165|LookAtX=64468504|LookAtY=16338582|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.96452518892016E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ViewConfig=
+Configuration1_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=128937008|ViewY=32677165|LookAtX=64468504|LookAtY=16338582|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.96452518892016E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ViewConfig=
 OutputType2=PCB 3D Print
 OutputName2=Copy of PCB 3D Print
 OutputCategory2=Documentation
@@ -64,7 +64,7 @@ OutputEnabled2_OutputMedium5=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.85|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=128937008|ViewY=32677165|LookAtX=64468504|LookAtY=16338582|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.96452518892016E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ScreenWidth=0|ScreenHeight=0|ViewConfig=
+Configuration2_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=128937008|ViewY=32677165|LookAtX=64468504|LookAtY=16338582|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.96452518892016E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ScreenWidth=0|ScreenHeight=0|ViewConfig=
 OutputType3=Assembly
 OutputName3=Assembly Drawings
 OutputCategory3=Assembly
@@ -72,7 +72,7 @@ OutputDocumentPath3=Starboard Deployable Solar Panel.PcbDoc
 OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
-OutputEnabled3_OutputMedium2=5
+OutputEnabled3_OutputMedium2=6
 OutputEnabled3_OutputMedium3=0
 OutputEnabled3_OutputMedium4=0
 OutputEnabled3_OutputMedium5=0
@@ -140,7 +140,7 @@ OutputDocumentPath4=
 OutputVariantName4=
 OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
-OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium2=5
 OutputEnabled4_OutputMedium3=0
 OutputEnabled4_OutputMedium4=0
 OutputEnabled4_OutputMedium5=0
@@ -153,9 +153,11 @@ Configuration4_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsIn
 Configuration4_Name3=GroupOrder
 Configuration4_Item3=Comment=True|Footprint=True
 Configuration4_Name4=SortOrder
-Configuration4_Item4=Designator=Up|Comment=Up|Footprint=Up
+Configuration4_Item4=Designator=Up|Footprint=Up
 Configuration4_Name5=VisibleOrder
-Configuration4_Item5=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
+Configuration4_Item5=Description=204|Designator=196|Footprint=120|LibRef=120|Quantity=75|Supplier 1=105|Supplier Link=296
+Configuration4_Name6=VisibleOrder_Flat
+Configuration4_Item6=Description=204|Designator=196|Footprint=120|LibRef=120|Quantity=75|Supplier 1=105|Supplier Link=296
 OutputType5=Gerber
 OutputName5=Gerber Files
 OutputCategory5=Fabrication
