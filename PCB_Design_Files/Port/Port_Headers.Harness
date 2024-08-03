@@ -1,0 +1,2 @@
+Deployment_Port=UHFKnifeReturn_P,SwitchDeployable_P,VKnife,SwitchUHF_P,PortKnifeReturn
+SPI_Port=SPI_CLK,SPI_MISO,SPI_MOSI,SPI_nCS_PD,SPI_nCS_P
