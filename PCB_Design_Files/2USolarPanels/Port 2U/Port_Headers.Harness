@@ -1,0 +1,2 @@
+Deployment_Port=UHFKnifeReturn_P,SwitchDeployable_P,VKnife,SwitchUHF_P,PortKnifeReturn
+I2C=SDA,SCL
